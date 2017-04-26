@@ -17,6 +17,7 @@
 	
 	require(ROOT . 'include/db.class.php');
 	require(ROOT . 'include/conf.class.php');
+	require(ROOT . 'include/log.class.php');
 
 	//设置报错级别
 	if(defined('DEBUG')){

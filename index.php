@@ -6,7 +6,15 @@
    */
 	require('./include/init.php');
 
+	/*	
 	$conf = Conf::getIns();
 	//读取选项
 	echo $conf->host;
+	
+	//动态追加选项
+	$conf->template_dir = "D:/what";
+	echo $conf->template_dir;
+	*/
+
+	//Log::write($sql);  写如日志文件
 ?>
