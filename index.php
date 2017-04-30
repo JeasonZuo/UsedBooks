@@ -17,4 +17,6 @@
 	*/
 
 	//Log::write($sql);  写如日志文件
+
+	print_r($_GET);
 ?>

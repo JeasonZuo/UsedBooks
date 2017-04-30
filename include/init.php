@@ -5,8 +5,6 @@
 	作用:框架初始化
    */
 
-	//递归过滤参数,用递归的方式过滤$_GET,$_POST,$_COOKIE
-
 	//日志记录功能
 
 	//初始化当前的绝对路径
@@ -18,6 +16,12 @@
 	require(ROOT . 'include/db.class.php');
 	require(ROOT . 'include/conf.class.php');
 	require(ROOT . 'include/log.class.php');
+	require(ROOT . 'include/lib_base.php');
+
+	//递归过滤参数,用递归的方式过滤$_GET,$_POST,$_COOKIE
+	$_GET = _addslashes($_GET);
+	$_POST = _addslashes($_POST);
+	$_COOKIE = _addslashes($_COOKIE);
 
 	//设置报错级别
 	if(defined('DEBUG')){
