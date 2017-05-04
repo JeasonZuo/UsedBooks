@@ -1,6 +1,6 @@
 <?php 
 	header("Content-Type: text/html; charset=utf-8");
-
+	defined('ACCESS') || exit('ACCESS Denied');
 	//递归转义数组
 	function _addslashes($arr){
 		foreach ($arr as $key => $value) {

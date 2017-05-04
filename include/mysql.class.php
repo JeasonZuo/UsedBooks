@@ -1,5 +1,6 @@
 <?php 
 	header("Content-Type: text/html; charset=utf-8");
+   defined('ACCESS') || exit('ACCESS Denied');
 	class Mysql extends DB{
          static private  $ins = NULL;
    		private $con = NULL;

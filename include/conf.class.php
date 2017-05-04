@@ -1,5 +1,6 @@
 <?php 
    header("Content-Type: text/html; charset=utf-8");
+   defined('ACCESS') || exit('ACCESS Denied');
    /*
 	file conf.class.php
 	作用:配置文件读写类

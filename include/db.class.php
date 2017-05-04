@@ -1,6 +1,6 @@
 <?php 
    header("Content-Type: text/html; charset=utf-8");
-
+   defined('ACCESS') || exit('ACCESS Denied');
    /*
 	file db.class.php
 	作用:数据库类

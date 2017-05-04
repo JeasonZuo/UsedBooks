@@ -1,5 +1,6 @@
  <?php 
    header("Content-Type: text/html; charset=utf-8");
+   defined('ACCESS') || exit('ACCESS Denied');
    /*
 	file log.class.php
 	作用:记录信息到日志
