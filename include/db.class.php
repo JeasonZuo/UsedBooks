@@ -43,7 +43,7 @@
 		*@param string $where 条件,用于update
 		*@return int 新插入行的主键值或影响行数
    		*/ 
-   		abstract public function Exec($data , $table , $act = 'insert' , $where = '0');
+   		abstract public function execSql($table , $data , $act = 'insert' , $where = '0');
    		/**
 		* 返回上一条语句产生的主键值
    		*/

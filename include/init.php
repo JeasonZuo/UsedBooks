@@ -4,6 +4,8 @@
 	file init.php
 	作用:框架初始化
    */
+	//防止非法访问
+	defined('ACCESS') || exit('ACCESS Denied');
 
 	//日志记录功能
 
@@ -13,10 +15,18 @@
 	//echo ROOT;exit;
 	define('DEBUG', true);
 	
-	require(ROOT . 'include/db.class.php');
-	require(ROOT . 'include/conf.class.php');
-	require(ROOT . 'include/log.class.php');
 	require(ROOT . 'include/lib_base.php');
+
+	//__autoload  尝试加载未定义的类 
+	//过定义这个函数来启用类的自动加载
+	function __autoload($class){
+		if(stripos($class , 'model') !== false){	//stripos   查找字符串首次出现的位置（不区分大小写） 
+			require(ROOT . '/Model/' . $class . '.class.php');
+		}else{
+			require(ROOT . '/include/' . $class . '.class.php');
+		}
+	}
+
 
 	//递归过滤参数,用递归的方式过滤$_GET,$_POST,$_COOKIE
 	$_GET = _addslashes($_GET);

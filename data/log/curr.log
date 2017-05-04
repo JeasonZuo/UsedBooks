@@ -1,0 +1,94 @@
+insert into test (id,name) values ('4','线性代数')
+set names utf8
+insert into test (id,name) values ('4','厚黑学\"')
+set names utf8
+insert into test (id,name) values ('5','厚黑学\"')
+set names utf8
+insert into test (id,name) values ('5','')
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+insert into test (id,name) values ('用户1','小白兔')
+set names utf8
+set names utf8
+insert into test (id,name) values ('用户2','小灰兔')
+set names utf8
+set names utf8
+insert into test (id,name) values ('用户2','小灰兔')
+set names utf8
+set names utf8
+insert into test (id,name) values ('用户2','小灰兔')
+set names utf8
+insert into test (id,name) values ('用户3','小黑兔')
+set names utf8
+insert into test (0,1) values ('管理员1','小黄牛')
+set names utf8
+insert into test (id,name) values ('用户3','小黑兔')
+set names utf8
+insert into test (id,name) values ('用户3','小黑兔')
+set names utf8
+insert into test (0,1) values ('管理员1','小黄牛')
+set names utf8
+insert into test (id,name) values ('管理员1','小黄牛')
+set names utf8
+insert into  (id,name) values ('管理员1','小黄牛')
+set names utf8
+insert into  (id,name) values ('用户3','小黑兔')
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+insert into test (id,name) values ('管理员2','小水牛')
+set names utf8
+select * from 
+set names utf8
+select * from test
+set names utf8
+select * from test
+set names utf8
+select * from test
+set names utf8
+select * from test
+set names utf8
+select * from test
+set names utf8
+select * from test
+set names utf8
+select * from test
+set names utf8
+insert into test (id,name) values ('5','')
+set names utf8
+insert into test (id,name) values ('5','')
+set names utf8
+insert into test (id,name) values ('用户3','小黑兔')
+set names utf8
+insert into test (id,name) values ('5','')
+set names utf8
+set names utf8
+insert into create (typename,intro) values ('aaaa','intriduce')
+set names utf8
+insert into type (typename,intro) values ('aaaa','intriduce')
+set names utf8
+insert into type (typename,intro) values ('aaaa','intriduce')
+set names utf8
+insert into type (typename,intro) values ('abc','introabc')
+set names utf8
+insert into type (typename,intro) values ('abc','introabc')
+set names utf8
+insert into test (id,name) values ('用户3','小黑兔')
+set names utf8
+insert into test (id,name) values ('管理员2','小水牛')
+set names utf8
+insert into test (id,name) values ('5','')
+set names utf8
+insert into test (id,name) values ('用户3','小黑兔')
+set names utf8
+insert into type (typename,intro) values ('','')
+set names utf8
+select * from test
