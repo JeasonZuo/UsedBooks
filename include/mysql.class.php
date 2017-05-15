@@ -37,7 +37,7 @@
    		/**
 		    *查询多行数据
 		    *@param string $sql sql语句
-		    *$return array
+		    *@return array
    		*/
    		public function getAll($sql){
    			$data = array();
@@ -50,7 +50,7 @@
    		/**
 		    *单行数据
 		    *@param string $sql sql语句
-		    *$return array
+		    *@return array
    		*/
    		public function getRow($sql){
    			$res = $this->query($sql);
@@ -60,7 +60,7 @@
    		/**
 		    *查询单个数据 如count(*)
 		    *@param string $sql sql语句
-		    *$return mixed
+		    *@return mixed
    		*/
    		public function getOne($sql){
    			$res = $this->query($sql);

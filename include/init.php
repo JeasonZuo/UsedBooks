@@ -22,6 +22,8 @@
 	function __autoload($class){
 		if(stripos($class , 'model') !== false){	//stripos   查找字符串首次出现的位置（不区分大小写） 
 			require(ROOT . '/Model/' . $class . '.class.php');
+		}elseif (stripos($class , 'tool') !== false) {
+			require(ROOT . '/tool/' . $class . '.class.php');
 		}else{
 			require(ROOT . '/include/' . $class . '.class.php');
 		}

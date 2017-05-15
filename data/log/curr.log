@@ -1,94 +1,259 @@
-insert into test (id,name) values ('4','线性代数')
 set names utf8
-insert into test (id,name) values ('4','厚黑学\"')
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
 set names utf8
-insert into test (id,name) values ('5','厚黑学\"')
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=
 set names utf8
-insert into test (id,name) values ('5','')
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+set names utf8
+select parent_id from category where cat_id=14
+select parent_id from category where cat_id=12
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select parent_id from category where cat_id=12
+update category set  cat_name='笑话大王',intro='哈哈哈',parent_id='12' where cat_id=23
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select parent_id from category where cat_id=22
+update category set  cat_name='笑话大王',intro='哈哈哈',parent_id='22' where cat_id=23
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+set names utf8
+select parent_id from category where cat_id=0
+update category set  cat_name='笑话书',intro='笑话',parent_id='0' where cat_id=22
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time) values ('七年级英语','123yy','tom','译林出版社','2013.05.23','14','10','20','详细描述','0.3','10','1','简单描述','0','1494437525')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time) values ('七年级数学','123sx','jack','安徽出版社','2013.05.25','13','30','50','数学教材详细描述','0.1','10','1','数学教材简单描述','0','1494466694')
+set names utf8
+select * from books
+set names utf8
+select * from books
+set names utf8
+select * from books
+set names utf8
+select * from books
+set names utf8
+select * from books
+set names utf8
+select * from books
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books
 set names utf8
 set names utf8
+select * from books where books_id=
+set names utf8
+select * from books where books_id=1
+set names utf8
+select * from books where books_id=1
+set names utf8
+select * from books
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time) values ('天天笑话','456xh','阿K','娱乐出版社','2013.05.25','23','5','10','笑话详细描述','0.2','4','1','简单','0','1494554413')
+set names utf8
+select * from books
+set names utf8
+update books set   where books_id=
+set names utf8
+update books set   where books_id=
+set names utf8
+update books set   where books_id=
 set names utf8
 set names utf8
+update books set  is_delete='1' where books_id=3
 set names utf8
+select * from books
 set names utf8
+update books set  is_delete='1' where books_id=3
 set names utf8
+select * from books
 set names utf8
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('用户1','小白兔')
+select * from books where is_delete = 0
 set names utf8
+update books set  is_delete='1' where books_id=3
 set names utf8
-insert into test (id,name) values ('用户2','小灰兔')
+select * from books where is_delete = 0
 set names utf8
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('用户2','小灰兔')
+select * from books where is_delete = 0
 set names utf8
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('用户2','小灰兔')
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('用户3','小黑兔')
+select * from books where is_delete = 0
 set names utf8
-insert into test (0,1) values ('管理员1','小黄牛')
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('用户3','小黑兔')
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('用户3','小黑兔')
+update books set  is_delete='1' where books_id=3
 set names utf8
-insert into test (0,1) values ('管理员1','小黄牛')
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('管理员1','小黄牛')
+select * from books where is_delete = 1
 set names utf8
-insert into  (id,name) values ('管理员1','小黄牛')
+update books set  is_delete='1' where books_id=3
 set names utf8
-insert into  (id,name) values ('用户3','小黑兔')
+select * from books where is_delete = 1
 set names utf8
+select * from books where is_delete = 1
 set names utf8
+select * from books where is_delete = 1
 set names utf8
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('管理员2','小水牛')
+select * from books where is_delete = 1
 set names utf8
-select * from 
+select * from books where is_delete = 1
 set names utf8
-select * from test
+select * from books where is_delete = 1
 set names utf8
-select * from test
+select * from books where books_id=3
 set names utf8
-select * from test
+select * from books where is_delete = 1
 set names utf8
-select * from test
+select * from books where is_delete = 1
 set names utf8
-select * from test
+select * from books where is_delete = 1
 set names utf8
-select * from test
+update books set  is_delete='1' where books_id=3
 set names utf8
-select * from test
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('5','')
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('5','')
+update books set  is_delete='' where books_id=3
 set names utf8
-insert into test (id,name) values ('用户3','小黑兔')
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('5','')
+update books set  is_delete='0' where books_id=3
 set names utf8
+select * from books where is_delete = 1
 set names utf8
-insert into create (typename,intro) values ('aaaa','intriduce')
+select * from books where is_delete = 0
 set names utf8
-insert into type (typename,intro) values ('aaaa','intriduce')
+update books set  is_delete='' where books_id=3
 set names utf8
-insert into type (typename,intro) values ('aaaa','intriduce')
+select * from books where is_delete = 0
 set names utf8
-insert into type (typename,intro) values ('abc','introabc')
+update books set  is_delete='1' where books_id=3
 set names utf8
-insert into type (typename,intro) values ('abc','introabc')
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('用户3','小黑兔')
+update books set  is_delete='2' where books_id=3
 set names utf8
-insert into test (id,name) values ('管理员2','小水牛')
+select * from books where is_delete = 1
 set names utf8
-insert into test (id,name) values ('5','')
+select * from books where is_delete = 0
 set names utf8
-insert into test (id,name) values ('用户3','小黑兔')
+select * from books where is_delete = 1
 set names utf8
-insert into type (typename,intro) values ('','')
+select * from books where is_delete = 1
 set names utf8
-select * from test
+select * from books where is_delete = 1
+set names utf8
+select * from books where is_delete = 1
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select * from books where is_delete = 1
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into category (cat_name,intro,parent_id) values ('工具书','工具书顶级栏目','0')
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into category (cat_name,intro,parent_id) values ('计算机工具书','计算机工具书 二级分类','24')
+set names utf8
+insert into category (cat_name,intro,parent_id) values ('法律工具书','法律工具书 二级分类','24')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','30','50','C++ 详细','0.5','2087','1','C++ 简单描述','0','1494818886','E:/Apache24/htdocs/usedbooks/data/images/20170515')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','30','50','C++ 详细','0.5','2087','1','C++ 简单描述','0','1494826082','E:/Apache24/htdocs/usedbooks/data/images/20170515')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','30','50','C++ 详细','0.5','2087','1','C++ 简单描述','0','1494826184','E:/Apache24/htdocs/usedbooks/data/images/20170515/gzn3dq.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','30','50','c++详细描述','1','1231','1','c++简单描述','0','1494826403','E:/Apache24/htdocs/usedbooks/data/images/20170515/nwde18.jpg')
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','3','50','详细描述','2','121','1','简单描述','0','1494826576','E:/Apache24/htdocs/usedbooks/data/images/20170515/h8xdwa.jpg')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','3','50','详细描述','2','121','1','简单描述','0','1494826820','data/images/20170515/yph531.jpg')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','1715C++','jack','机械工业出版社','2013.05.25','25','3','50','详细描述','2','121','1','简单描述','0','1494826834','data/images/20170515/qk5z9s.jpg')
