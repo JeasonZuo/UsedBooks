@@ -123,7 +123,7 @@
 		*@return String $dir
 		**/
 		protected function mkDateDir(){
-			$dir = ROOT.'data/images/'.date('Ymd');
+			$dir = ROOT.'data/images/'. date('Ymd');
 
 			if(is_dir($dir) || mkdir($dir,0777,true)){
 				return $dir;

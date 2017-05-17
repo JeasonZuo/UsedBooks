@@ -24,5 +24,18 @@
 			$sql = 'select * from ' . $this->table . ' where is_delete = '.$is_delete;
 			return $this->db->getAll($sql);
 		}
+
+		/**
+		*创建商品货号
+		**/
+		public function createSn(){
+			$sn = date('Ymd') . mt_rand(10000,99999);
+			$sql = 'select count(*) from ' . $this->table . ' where books_sn=' . $sn;
+			if($this->db->getOne($sql) == 0){
+				return $sn;
+			}else{
+				$this->createSn();
+			}
+		}
 	}
 ?>

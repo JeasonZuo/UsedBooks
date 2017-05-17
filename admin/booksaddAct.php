@@ -36,6 +36,8 @@
     $data['books_id'] = $_POST['goods_id'] + 0;   			//book id
     $data['add_time'] = time();   							//添加时间
 
+    
+
     //上传图片
     $upTool = new UpTool();
     if($ori_img = ($upTool->upLoad('ori_img'))){
@@ -44,10 +46,36 @@
         return $upTool->getError();
     }
 
+    if($ori_img){
+        //处理图片 300*400 160*220
+        $imageTool = new ImageTool();
+        $ori_img = ROOT . $ori_img;
+        //中等图地址 
+        $books_img =  dirname($ori_img) . '/books_' . basename($ori_img);
+        //缩略图地址
+        $thumb_img =  dirname($ori_img) . '/thumb_' . basename($ori_img);
+
+        if($imageTool->thumb($ori_img , $books_img , 300, 400)){
+            $data['books_img'] = str_replace(ROOT , '' ,$books_img);
+        }
+
+        if($imageTool->thumb($ori_img , $thumb_img , 160, 220)){
+            $data['thumb_img'] = str_replace(ROOT , '', $thumb_img);
+        }    
+    }
+
+
+
+
 
     //print_r($data);
 
     $booksModel = new booksModel();
+
+    //自动添加商品货号
+    if (empty($data['books_sn'])) {
+        $data['books_sn'] = $booksModel->createSn();
+    }
 
     if ($books_id = $booksModel->add($data)) {
     	echo '发布成功';
