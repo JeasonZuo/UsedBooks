@@ -21,11 +21,11 @@
 	//过定义这个函数来启用类的自动加载
 	function __autoload($class){
 		if(stripos($class , 'model') !== false){	//stripos   查找字符串首次出现的位置（不区分大小写） 
-			require(ROOT . '/Model/' . $class . '.class.php');
+			require(ROOT . 'Model/' . $class . '.class.php');
 		}elseif (stripos($class , 'tool') !== false) {
-			require(ROOT . '/tool/' . $class . '.class.php');
+			require(ROOT . 'tool/' . $class . '.class.php');
 		}else{
-			require(ROOT . '/include/' . $class . '.class.php');
+			require(ROOT . 'include/' . $class . '.class.php');
 		}
 	}
 
@@ -34,6 +34,9 @@
 	$_GET = _addslashes($_GET);
 	$_POST = _addslashes($_POST);
 	$_COOKIE = _addslashes($_COOKIE);
+
+	//开启session
+	session_start();
 
 	//设置报错级别
 	if(defined('DEBUG')){

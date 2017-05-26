@@ -257,3 +257,1334 @@ set names utf8
 insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','17515C++','jack','机械工业出版社','2013.05.25','25','3','50','详细描述','2','121','1','简单描述','0','1494826820','data/images/20170515/yph531.jpg')
 set names utf8
 insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('c++从入门到精通','1715C++','jack','机械工业出版社','2013.05.25','25','3','50','详细描述','2','121','1','简单描述','0','1494826834','data/images/20170515/qk5z9s.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494983713','data/images/20170517/2ukyt9.png')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494984005','data/images/20170517/ea5w9f.png')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494984078','data/images/20170517/q6giw4.png')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494984157','data/images/20170517/k9zo27.png')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494985282','data/images/20170517/fxc1zq.png','','')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494985425','data/images/20170517/71g2mc.png','','')
+set names utf8
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('八年级英语','124yy','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1494985797','data/images/20170517/uhziqk.png','data/images/20170517/books_uhziqk.png','data/images/20170517/thumb_uhziqk.png')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where goods_sn=2017051788291
+set names utf8
+select count(*) from books where books_sn=2017051744172
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img,goods_sn) values ('九年级英语','','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1495006293','data/images/20170517/hgmv9x.png','data/images/20170517/books_hgmv9x.png','data/images/20170517/thumb_hgmv9x.png','2017051744172')
+set names utf8
+select count(*) from books where books_sn=2017051775129
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img,goods_sn) values ('九年级英语','','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1495006328','data/images/20170517/tsgy1e.png','data/images/20170517/books_tsgy1e.png','data/images/20170517/thumb_tsgy1e.png','')
+set names utf8
+select count(*) from books where books_sn=2017051728427
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('九年级英语','2017051728427','tom','译林出版社','2013.05.25','14','20','30','详细描述','1','100','1','简单描述','0','1495006535','data/images/20170517/xevqea.png','data/images/20170517/books_xevqea.png','data/images/20170517/thumb_xevqea.png')
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+insert into user (username,email,password,repassword,agreement) values ('zjx','123@qq.com','123','123','1')
+set names utf8
+insert into user (username,email,password,repassword,agreement) values ('zjx','123@qq.com','123','123','1')
+set names utf8
+insert into user (username,email,password,regtime) values ('zjx','123@qq.com','123','1495037934')
+set names utf8
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+insert into user () values ('')
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx1
+set names utf8
+insert into user (username,email,password,regtime) values ('zjx','123zjx@qq.com','202cb962ac59075b964b07152d234b70','1495126038')
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username=zjx
+set names utf8
+select count(*) from user where username='zjx'
+set names utf8
+select count(*) from user where username='zjx1'
+insert into user (username,email,password,regtime) values ('zjx1','123zjx@qq.com','827ccb0eea8a706c4c34a16891f84e7b','1495126764')
+set names utf8
+select count(*) from user where username='zjx' and password='123'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx1'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 1
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052026125
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('大学计算机基础','2017052026125','龚沛曾 杨志强 主编','高等教育出版社','2008.06.24','25','20','30','\"本书以微型计算机为基础，主要介绍计算机基础知识、Windows XP、Word 2003、Excel 2003、PowerPoint 2003、Office 2010、网络基础、Photoshop、Flash、FrontPage 2003和Access 2003等，同时还概要介绍了Windows 7和DOS等内容。本书内容丰富，强调知识性和实践性，主要训练学生在计算机应用中非程序设计部分的操作能力，培养学生的计算机文化素养。本书适合作为高等学校非计算机专业的计算机基础课教材，也适作为计算机入门教育的参考书。','0.3','50','1','本书以微型计算机为基础，主要介绍计算机基础知识等内容，训练学生在计算机应用中非程序设计部分的操作能力以及培养学生的文化素养','0','1495267957','data/images/20170520/na7e5v.jpg','data/images/20170520/books_na7e5v.jpg','data/images/20170520/thumb_na7e5v.jpg')
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052055462
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('C#实用教程','2017052055462','郑阿奇 主编','电子工业出版社','2008-1-1','25','15','20','C#是目前主流的程序设计语言之一，本书以MicrosoftVisualStudio2005作为平台，系统地介绍C#编程基础、面向对象编程、Windows应用程序、GDI+编程、文件操作、数据库应用、多线程技术和Web应用程序。本书包含实用教程、习题、实验和综合应用实习四部分。习题主要突出基本编程和基本概念；实验主要锻炼学生编程和应用的能力，读者先跟着做，然后自己练习；综合应用实习突出C#的主要应用，实习1为Windows应用程序开发，实习2为ASP.NET应用程序开发。本书配有教学课件和应用实例源文件。
+本书可作为大学本科、高职高专有关专业C#课程教材，也可供广大C#开发用户参考。','0.2','30','1','《C#实用教程》是2008年电子工业出版社出版的图书，作者是郑阿奇','0','1495268153','data/images/20170520/81ho2q.jpg','data/images/20170520/books_81ho2q.jpg','data/images/20170520/thumb_81ho2q.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052036349
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('web程序设计(第3版)','2017052036349','吉根林，顾韵华 主编，吴军华 等编著','电子工业出版社','2011年06月','25','20','38','本书是普通高等教育“十一五”国家级规划教材，是精品课程和优秀教材建设的成果。
+《Web程序设计》（第2版），承蒙广大读者的支持，被几十所高校选为必修课程教材，至2010年12月已连续印刷12次。在教材出版后的几年中，Web应用程序开发技术又有了新的发展，同时从服务教学、服务读者的角度看，该教材还需进一步完善。为此，有必要对《Web程序设计》（第2版）进行修订。
+本次修订根据我们近年来从事“Web程序设计”教学的经验与体会以及读者的反馈建议，坚持“Web程序设计”课程既定的教学目标，即“层次一：学会做网页；层次二：学会建网站”；保持了原书的基本内容、基本风格和结构框架；主要是根据Web应用程序开发技术的发展趋势，与时俱进地增加了.NET程序设计的知识内容，并对部分章节的内容进行了整合，进一步提高本书的新颖性和可用性。本次修订的具体情况如下：
+（1）删去了“XML基本技术”一章，将其内容与HTML整合成新的一章“HTML与XML”。
+（2）增加了“ASP.NET程序设计”一章，介绍ASP.NET程序设计的基本概念与相关技术。','0.5','60','1','本书是普通高等教育“十一五”*规划教材，介绍Web程序设计的方法与技术，使读者学会制作网页和建立网站。全书共9章：Web编程的基础知识；Web应用程序开发环境Dreamweaver MX及Visual Studio. NET工具；HTML与XML；JavaScript和VBScript脚本语言和页面设计；ASP和ASP.NET程序设计；Web数据库应用程序设计；一个ASP和一个ASP.NE综合应用实例。每章配有实例、习题和上机实验题及实验指导，免费提供PPT教学课件和程序源代码。','0','1495268394','data/images/20170520/tyvuxo.jpg','data/images/20170520/books_tyvuxo.jpg','data/images/20170520/thumb_tyvuxo.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052045760
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('Web程序设计（第3版）','2017052045760','吉根林，顾韵华 主编，吴军华 等编著','电子工业出版社','2011年06月','25','28','38','本书是普通高等教育“十一五”国家级规划教材，是精品课程和优秀教材建设的成果。
+《Web程序设计》（第2版），承蒙广大读者的支持，被几十所高校选为必修课程教材，至2010年12月已连续印刷12次。在教材出版后的几年中，Web应用程序开发技术又有了新的发展，同时从服务教学、服务读者的角度看，该教材还需进一步完善。为此，有必要对《Web程序设计》（第2版）进行修订。
+本次修订根据我们近年来从事“Web程序设计”教学的经验与体会以及读者的反馈建议，坚持“Web程序设计”课程既定的教学目标，即“层次一：学会做网页；层次二：学会建网站”；保持了原书的基本内容、基本风格和结构框架；主要是根据Web应用程序开发技术的发展趋势，与时俱进地增加了.NET程序设计的知识内容，并对部分章节的内容进行了整合，进一步提高本书的新颖性和可用性。本次修订的具体情况如下：
+（1）删去了“XML基本技术”一章，将其内容与HTML整合成新的一章“HTML与XML”。
+（2）增加了“ASP.NET程序设计”一章，介绍ASP.NET程序设计的基本概念与相关技术','0.5','60','1','本书是普通高等教育“十一五”*规划教材，介绍Web程序设计的方法与技术，使读者学会制作网页和建立网站。全书共9章：Web编程的基础知识；Web应用程序开发环境Dreamweaver MX及Visual Studio. NET工具；HTML与XML；JavaScript和VBScript脚本语言和页面设计；ASP和ASP.NET程序设计；Web数据库应用程序设计；一个ASP和一个ASP.NE综合应用实例。每章配有实例、习题和上机实验题及实验指导，免费提供PPT教学课件和程序源代码。','0','1495268546','data/images/20170520/cyuid6.jpg','data/images/20170520/books_cyuid6.jpg','data/images/20170520/thumb_cyuid6.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052070821
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('C++面向对象程序设计','2017052070821','谭浩强主编','清华大学出版社','2007.05.23','25','18','36','《普通高等教育\"十一五\"国家级规划教材·中国高等院校计算机基础教育课程体系规划教材：C++面向对象程序设计》作者谭浩强深入调查了我国大学的程序设计课程的现状和发展趋势，参阅了国内外数十种C++的教材，认真分析了学习者在学习过程中遇到的困难，研究了初学者的认识规律，做到准确定位，合理取舍内容，设计了读者易于学习的教材体系，并且以通俗易懂的语言化解了许多复杂的概念，大大减少了初学者学习C++的困难','0.3','110','1','本书介绍了C++面向对象程序设计的基本知识和编程方法\,以及C++面向对象的基本特征。','0','1495268720','data/images/20170520/61ieq4.jpg','data/images/20170520/books_61ieq4.jpg','data/images/20170520/thumb_61ieq4.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052066048
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('数据结构(C语言版)','2017052066048','严蔚敏','清华大学出版社','2006年07月','25','20','30','《数据结构》（C语言版）是为“数据结构”课程编写的教材，也可作为学习数据结构及其算法的C程序设计的参数教材。学了数据结构后\,许多以前写起来很繁杂的代码现在写起来很清晰明了.
+本书的前半部分从抽象数据类型的角度讨论各种基本类型的数据结构及其应用；后半部分主要讨论查找和排序的各种实现方法及其综合分析比较。','0.3','100','1','全书采用类C语言作为数据结构和算法的描述语言。','0','1495268984','data/images/20170520/qkc51t.jpg','data/images/20170520/books_qkc51t.jpg','data/images/20170520/thumb_qkc51t.jpg')
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052080401
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('数据库系统概论','2017052080401','王珊、萨师煊','高等教育出版社','2006年05月','0','20','34','随着数据库技术的发展，国内计算机专业的学生和技术人员的水平提高，萨师煊教授和王珊教授对《数据库系统概论》第一版从结构到内容做了较大的调整、修改和增删；把数据库学科的新发展、新技术，有选择地纳入到教材中，但原书的基本宗旨和风格不变，仍以《数据库系统概论教学大纲》作为本书编写的基本依据，保持讲述数据库的基本概念、基本理论和基本技术为主的特点，同时做到理论联系实际。','0.5','210','1','为了加强《数据库系统概论》教学实践','0','1495269255','data/images/20170520/eoivye.jpg','data/images/20170520/books_eoivye.jpg','data/images/20170520/thumb_eoivye.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052062206
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('c语言从入门到精通','2017052062206','韩旭  王娣','清华大学出版社','2010年7月1日','25','30','50','本书从初学者的角度出发，以通俗易懂的语言，丰富多彩的实例，详细介绍了使用C语言进行程序开发应该掌握的各方面知识。全书共分17章，包括C语言概述，算法，数据类型，运算符与表达式，常用的数据输入、输出函数，选择结构程序设计，循环控制，数组，函数，指针，结构体和共用体，位运算，预处理，文件，存储管理，网络套接字编程和学生成绩管理系统等。所有知识都结合具体实例进行介绍，涉及的程序代码给出了详细的注释，可以使读者轻松领会C语言程序开发的精髓，快速提高开发技能。
+本书列举了大量的小型实例、综合实例和部分项目案例；所附DVD光盘内容有同步视频讲解、实例源程序、“实践与练习”答案等；本书的服务网站提供了模块库、案例库、题库、素材库、答疑服务。
+本书内容详尽，实例丰富，非常适合作为编程初学者的学习用书，也适合作为开发人员的查阅、参考资料。','1.4','311','1','C语言从入门到精通，清华大学出版社出版。书中除了对C 语言的语法做了详细的介绍，还对一些高级应用，如：网络套接字编程，内存管理，和一个简易的学生管理系统做了讲解。','0','1495269379','data/images/20170520/v6r5up.jpg','data/images/20170520/books_v6r5up.jpg','data/images/20170520/thumb_v6r5up.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052021700
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('鱼(GYO)','2017052021700','Junji Ito','Viz Media','2015年05月','17','48','68','剧情：
+
+华织和两个友人，惠梨香和纪子到其男友，阿忠于冲绳的别墅度假。未料，却惨遭步行鱼的怪物侵袭。于是，华织决定赴东京一趟，救其男友。同时，步行鱼也逐渐登入世界各地，地球人正面临灭亡的危机。
+
+
+看点：
+
+剧情编排极为紧凑、精彩。电影很快就进入主题，丝毫不怠慢，也不拖拉。故事走势属“重口味”，高潮迭起，特别是步行鱼袭击主角们更是紧张刺激、惊心动魄。恐怖、惊悚气氛十足、到位。','0.8','20','1','《鱼》（又名Gyo）改编自伊藤润二于2002年的同名恐怖漫画并于2012年初以录象带上市。基于和原作的巨大差异，各界反应皆负面评价。','0','1495269856','data/images/20170520/iytbdx.jpg','data/images/20170520/books_iytbdx.jpg','data/images/20170520/thumb_iytbdx.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052077339
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('阿衰全套','2017052077339','猫小乐','云南人民出版社','2015年09月','16','50','65','《阿衰on line》在《漫画Party》杂志经过2年的连载，阿衰的故事给大家带来了欢乐，给我也带来了巨大的自信。阿衰受到读者的欢迎，我想是因为我画了大家熟悉的生活，引起了读者的共鸣吧！本次出版的《阿衰on line》是阿衰系列图书的续作，以后我还会陆续推出更多更精彩的《阿衰on line》！世界是由千千万万个阿衰这样的小人物组成的。当我们收回对优秀者艳慕的目光，揉揉因为仰视明星太久而发酸的脖子，也应该关怀一下并不出众的你我他……','5','15','1','阿衰全套41-50 全集41-42-43-44-45-46-47-48-49-50共10册 猫小乐漫画 畅销爆笑校园学生幽默搞笑漫画书籍 ','0','1495270040','data/images/20170520/gg8xv1.jpg','data/images/20170520/books_gg8xv1.jpg','data/images/20170520/thumb_gg8xv1.jpg')
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052013741
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('淘宝全有啊','2017052013741','冷笑话特勤组','宁夏人民出版社','2009年06月01日','23','10','25','淘宝买家和卖家之间最雷最囧的笑话，都由一系列搞笑四格漫画的形式绘制而成。本着为网购白痴做入门培训；为网购菜鸟降低被宰几率；为消费者谋福利；为促进网店商家和网店买家的和谐交易；为广大坐马桶和蹲坑的读者做疏通工作的宗旨，出版本册集导购、教学、解压、运气等诸功能于一体的导购冷笑话。','0.2','19','1','淘宝店铺的镇店之宝，第一本极有可能被百度全面封杀的笑话书','0','1495270240','data/images/20170520/h39uqb.jpg','data/images/20170520/books_h39uqb.jpg','data/images/20170520/thumb_h39uqb.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052088478
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('7七年级英语下人教版','2017052088478','课程教材研究所','人民教育出版社','2012年12月','14','10','18','
+7七年级英语下人教版课本初中七年级下册英语书初一英语课本教材新目标Go for it教科书 人民教育出版社 ','0.3','28','1','
+7七年级英语下人教版课本','0','1495272817','data/images/20170520/gbqtr8.jpg','data/images/20170520/books_gbqtr8.jpg','data/images/20170520/thumb_gbqtr8.jpg')
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052040751
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('人教版七年级数学课本7年级上册','2017052040751','无','人民教育出版社','2016年07月','13','20','30','
+人教版七年级数学课本 7年级 上册 【人教版】初中数学课本 2016初中教材 教科书 常州新华书店 ','0.4','40','1','
+人教版七年级数学课本 7年级 上册 ','0','1495272931','data/images/20170520/9c4kxm.jpg','data/images/20170520/books_9c4kxm.jpg','data/images/20170520/thumb_9c4kxm.jpg')
+set names utf8
+select * from books where is_delete = 0
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by addtime limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by addtime limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by addtime limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in ()
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26) rand() limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select count(*) from books where books_sn=2017052017628
+insert into books (books_name,books_sn,writer,books_press,publish_time,cat_id,shop_price,market_price,books_desc,books_weight,books_number,is_on_sale,books_brief,books_id,add_time,ori_img,books_img,thumb_img) values ('知识产权法-第五版','2017052017628','吴汉东','法律出版社','2014年02月01日','26','9.8','19.8','全书以“总论—著作权、专利权、商标权—其他知识产权—知识产权国际保护”为明晰体系\,在此框架下\,以现行知识产权法和相关国际公约为基线\,既有知识产权法基本理论、基本范畴和基本概念的阐述\,又有各知识产权制度的专题介绍;同时\,国际知识产权制度、国际公约及相关立法例的变动、本国立法以及司法中出现的新问题、学界前沿性研究成果等皆列其间。一方面\,准确传达了成熟和先进的理论结构和知识要点;另一方面\,以教为本\,以学习目的、关键词、导语、结语、思考题等形式充分引导、循律深入。
+本次新版\,结合2013年《商标法》修正\,对商标权部分全新编写\,亦对其他部分进行完善\,使本书更臻严谨、先进。
+全书严格遵照法学专业核心课程的教学基本要求编写而成\,是法学专业本科生的首选教材。此外\,亦可作为非法学专业学生的通识教材\,以及司法实务、知识产权实务人员的培训教材。 知识产权法-第五版_吴汉东_法律出版社_','0.3','15','1','知识产权法-第五版','0','1495278907','data/images/20170520/r3ke8i.jpg','data/images/20170520/books_r3ke8i.jpg','data/images/20170520/thumb_r3ke8i.jpg')
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=16
+select cat_id,cat_name,parent_id from category
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=1
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (25)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=14
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=14
+select parent_id from category where cat_id=12
+select cat_id,cat_name,intro,parent_id from category where cat_id=14
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (14)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=14
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=14
+select parent_id from category where cat_id=12
+select cat_id,cat_name,intro,parent_id from category where cat_id=14
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (14)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=17
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=17
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=17
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (17)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=16
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=16
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=16
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (16)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (25)
+set names utf8
+select parent_id from category where cat_id=
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (23)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=0
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (22,23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (22,23)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (15,17,16)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+set names utf8
+select * from books where books_id=15
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=16
+select parent_id from category where cat_id=25
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=25
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=16
+set names utf8
+select * from books where books_id=16
+set names utf8
+select * from books where books_id=16
+set names utf8
+select * from books where books_id=16
+set names utf8
+select * from books where books_id=16
+set names utf8
+select * from books where books_id=16
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in ()
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in ()
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (Array,Array)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (Array,Array)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (Array,Array)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (Array,Array)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (Array,Array)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (Array,Array)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (15,16)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (15,16)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (15,16)
+set names utf8
+select * from books where books_id=16
+select books_id,books_name,thumb_img,shop_price,market_price from books where books_id in (15,16)
+set names utf8
+select * from books where books_id=16
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select username,password,email from user where username='zjx'
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=24
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+select * from books where books_id=24
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+select * from books where books_id=27
+set names utf8
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+select * from books where books_id=27
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (15,17,16)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (15,17,16)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (22,23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=12
+select cat_id,cat_name,intro,parent_id from category where cat_id=12
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (12,14,13)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (15,17,16)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (22,23)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (15,17,16)
+set names utf8
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (15,17,16)
+set names utf8
+select * from books where books_id=22
+select parent_id from category where cat_id=17
+select parent_id from category where cat_id=15
+select cat_id,cat_name,intro,parent_id from category where cat_id=17
+select cat_id,cat_name,intro,parent_id from category where cat_id=15
+set names utf8
+select * from books where books_id=22
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select user_id,username,password from user where username='zjx'
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+set names utf8
+select count(*) from orderinfo where order_sn='Order2017052558253'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123zjx@qq.com','黄岛区','233400','15588667518','15588667518','7号公寓','下午','1495696427','3','9.8','1','zjx','Order2017052558253')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052578650'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123zjx@qq.com','黄岛区','233400','15588667518','15588667518','7号公寓','下午','1495696516','3','9.8','1','zjx','or2017052578650')
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=24
+select parent_id from category where cat_id=23
+select parent_id from category where cat_id=22
+select cat_id,cat_name,intro,parent_id from category where cat_id=23
+select cat_id,cat_name,intro,parent_id from category where cat_id=22
+set names utf8
+select * from books where books_id=24
+set names utf8
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052529857'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495701651','3','29.6','1','zjx','or2017052529857')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052548222'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495701701','3','29.6','1','zjx','or2017052548222')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052578332'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495701782','3','29.6','1','zjx','or2017052578332')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052568420'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495701809','3','29.6','1','zjx','or2017052568420')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052510384'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495701936','3','29.6','1','zjx','or2017052510384')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052542523'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702012','3','29.6','1','zjx','or2017052542523')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052582102'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702235','3','29.6','1','zjx','or2017052582102')
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052567977'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702284','3','29.6','1','zjx','or2017052567977')
+insert into orderbooks (order_id,order_sn,boooks_id,books_number,books_name,shop_price,subtotal) values ('9','or2017052567977','27','2','知识产权法-第五版','9.80','19.6')
+insert into orderbooks (order_id,order_sn,boooks_id,books_number,books_name,shop_price,subtotal) values ('9','or2017052567977','24','1','淘宝全有啊','10.00','10')
+delete from orderinfo where order_id=9
+delete from ordergoods where order_id = 9
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052533942'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702334','3','29.6','1','zjx','or2017052533942')
+insert into orderbooks (order_id,order_sn,boooks_id,books_number,books_name,shop_price,subtotal) values ('10','or2017052533942','27','2','知识产权法-第五版','9.80','19.6')
+insert into orderbooks (order_id,order_sn,boooks_id,books_number,books_name,shop_price,subtotal) values ('10','or2017052533942','24','1','淘宝全有啊','10.00','10')
+delete from orderinfo where order_id=10
+delete from ordergoods where order_id = 10
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select * from books where books_id=27
+select parent_id from category where cat_id=26
+select parent_id from category where cat_id=24
+select cat_id,cat_name,intro,parent_id from category where cat_id=26
+select cat_id,cat_name,intro,parent_id from category where cat_id=24
+set names utf8
+select * from books where books_id=27
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052531095'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702658','4','39.4','1','zjx','or2017052531095')
+insert into orderbooks (order_id,order_sn,boooks_id,books_number,books_name,shop_price,subtotal) values ('11','or2017052531095','27','3','知识产权法-第五版','9.80','29.4')
+insert into orderbooks (order_id,order_sn,boooks_id,books_number,books_name,shop_price,subtotal) values ('11','or2017052531095','24','1','淘宝全有啊','10.00','10')
+delete from orderinfo where order_id=11
+delete from ordergoods where order_id = 11
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052511195'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702910','4','39.4','1','zjx','or2017052511195')
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('13','or2017052511195','27','3','知识产权法-第五版','9.80','29.4')
+update goods set books_number = books_number -  where books_id = 27
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('13','or2017052511195','24','1','淘宝全有啊','10.00','10')
+update goods set books_number = books_number -  where books_id = 24
+delete from orderinfo where order_id=13
+delete from ordergoods where order_id = 13
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052565837'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702948','4','39.4','1','zjx','or2017052565837')
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('14','or2017052565837','27','3','知识产权法-第五版','9.80','29.4')
+update goods set books_number = books_number - 3 where books_id = 27
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('14','or2017052565837','24','1','淘宝全有啊','10.00','10')
+update goods set books_number = books_number - 1 where books_id = 24
+delete from orderinfo where order_id=14
+delete from ordergoods where order_id = 14
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052586730'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495702954','4','39.4','1','zjx','or2017052586730')
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('15','or2017052586730','27','3','知识产权法-第五版','9.80','29.4')
+update goods set books_number = books_number - 3 where books_id = 27
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('15','or2017052586730','24','1','淘宝全有啊','10.00','10')
+update goods set books_number = books_number - 1 where books_id = 24
+delete from orderinfo where order_id=15
+delete from ordergoods where order_id = 15
+set names utf8
+select count(*) from orderinfo where order_sn='or2017052511091'
+insert into orderinfo (zone,reciver,email,address,zipcode,tel,mobile,building,best_time,add_time,pay,order_amount,user_id,username,order_sn) values ('青岛市','左家兴','123@qq.com','黄岛区','233400','123456789','12312311123','7号公寓','下午','1495703069','4','39.4','1','zjx','or2017052511091')
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('17','or2017052511091','27','3','知识产权法-第五版','9.80','29.4')
+update books set books_number = books_number - 3 where books_id = 27
+insert into orderbooks (order_id,order_sn,books_id,books_number,books_name,shop_price,subtotal) values ('17','or2017052511091','24','1','淘宝全有啊','10.00','10')
+update books set books_number = books_number - 1 where books_id = 24
+set names utf8
+set names utf8
+select books_id,books_name,shop_price,market_price,thumb_img from books order by add_time desc limit 5
+select cat_id,cat_name,parent_id from category
+select books_id,books_name,shop_price,market_price,thumb_img from books where cat_id in (24,25,26)
+set names utf8
+select cat_id,cat_name,parent_id from category
+set names utf8
+select * from books where is_delete = 0

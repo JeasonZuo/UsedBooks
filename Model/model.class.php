@@ -6,7 +6,7 @@
 		protected $table = NULL;  //model控制的表
 		protected $db = NULL;    //引入的mysql类对象
 		protected $pkey  = NULL;  //主键
-		protected $fields = array();  //域
+		//protected $fields = array();  //域
 
 		public function __construct(){
 			$this->db = Mysql::getIns();
@@ -18,22 +18,6 @@
 		}
 
 		
-		/**
-		*作用:把传来的数组清除掉不用的单元,留下与表的单元对应的单元
-		*@param array $arr
-		*@return array 
-		**/
-		/*
-		protected function _facade($arr = array()){
-			$data = array();
-			foreach ($arr as $key => $value) {
-				if(in_array($key, $this->fields)){
-					$data[$key] = $v;
-				}
-			}
-			return $data;
-		}
-		*/
 
 		/**
 		*作用:插入数据
@@ -91,6 +75,14 @@
 			$sql = 'select * from '.$this->table.' where ' .$this->pkey .'='. $id;
 			return $this->db->getRow($sql);
 		}
+
+		/**
+		*作用:返回刚插入数据的主键值
+		*@return int $id  
+		**/
+		public function lastId() {
+			return $this->db->lastId();
+		} 
 
 	}
 ?>

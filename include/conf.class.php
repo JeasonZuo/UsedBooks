@@ -16,9 +16,8 @@
 			include(ROOT.'include/config.inc.php');
 			$this->data = $_CFG;
 		}
-
+		// 防止__construct被改写
 		final protected function __clone(){
-
 		}
 
 		public static function getIns(){

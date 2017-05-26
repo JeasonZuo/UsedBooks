@@ -3,7 +3,7 @@
 	file:imageTool.class.php
 	作用: 获取图片大小类型 制作缩略图 制作验证码
 	*/
-	defined('ACCESS') || exit('ACCESS Denied');
+	//defined('ACCESS') || exit('ACCESS Denied');
 
 	class ImageTool {
 		/**

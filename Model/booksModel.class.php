@@ -22,7 +22,8 @@
 		**/
 		public function selectBooks($is_delete){
 			$sql = 'select * from ' . $this->table . ' where is_delete = '.$is_delete;
-			return $this->db->getAll($sql);
+			$arr =  $this->db->getAll($sql);
+			return $arr;
 		}
 
 		/**
@@ -37,5 +38,41 @@
 				$this->createSn();
 			}
 		}
+
+		/*
+		*取出指定条数的最新发布商品
+		*/
+		public function getNew($n = 5){
+			$sql = 'select books_id,books_name,shop_price,market_price,thumb_img from '.$this->table.' order by add_time desc limit '.$n;
+			//echo $sql;
+			return $this->db->getAll($sql);
+		}
+
+		/*
+		*取出指定栏目的商品
+		*/
+		public function getCateBooks($cat_id){
+			$cateModel =  new CateModel();
+			//取出所有栏目
+			$arr = $cateModel->select();
+			//取cat_id下所有子栏目
+			$sons = $cateModel->getCateTree($arr,$cat_id);
+			//将栏目和子栏目的$cat_id放到$sub_id里
+			$sub_id = array($cat_id);
+			if (!empty($sons)) {
+				foreach ($sons as $value) {
+					$sub_id[] = $value['cat_id'];
+				}
+			}
+
+			$in = implode(',', $sub_id);
+
+			$sql = 'select books_id,books_name,shop_price,market_price,thumb_img from '.$this->table.
+			' where cat_id in ('.$in.')' ;
+
+			return $this->db->getAll($sql);
+		}
+
+
 	}
 ?>
